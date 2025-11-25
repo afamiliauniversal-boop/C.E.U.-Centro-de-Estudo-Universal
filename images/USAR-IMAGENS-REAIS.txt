@@ -1,0 +1,22 @@
+⚠️ IMPORTANTE: SUBSTITUA ESTAS IMAGENS!
+
+Os arquivos .svg que estão aqui são apenas PLACEHOLDERS (imagens temporárias).
+
+Para o site ficar profissional de verdade, você PRECISA substituir por fotos reais!
+
+SIGA O GUIA: "GUIA-ADICIONAR-IMAGENS.txt"
+
+Sites para baixar imagens gratuitas:
+- Unsplash.com ⭐
+- Pexels.com ⭐
+- Pixabay.com
+
+Busque por:
+"meditation", "therapy", "peace", "wellness", "calm"
+
+Quando baixar as fotos reais:
+1. Renomeie com os nomes corretos
+2. Substitua os arquivos .svg
+3. Envie para o GitHub
+
+As imagens reais farão TODA a diferença!

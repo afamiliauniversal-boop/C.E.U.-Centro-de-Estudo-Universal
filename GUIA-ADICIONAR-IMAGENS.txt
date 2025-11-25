@@ -1,0 +1,318 @@
+# 🖼️ GUIA COMPLETO: COMO ADICIONAR IMAGENS NO SITE DO GITHUB
+
+## 📋 ÍNDICE:
+1. Onde conseguir imagens gratuitas
+2. Quais imagens você precisa
+3. Como renomear as imagens
+4. Como colocar no GitHub (PASSO A PASSO)
+5. Como verificar se funcionou
+
+---
+
+## 🎨 PARTE 1: ONDE CONSEGUIR IMAGENS GRATUITAS
+
+### Sites Recomendados (100% GRÁTIS):
+
+1. **UNSPLASH.COM** ⭐ (MELHOR)
+   - Site: https://unsplash.com
+   - Busque em inglês: "meditation", "therapy", "wellness", "peace"
+   - Todas as fotos são gratuitas
+   - Clique em "Download" (escolha tamanho médio)
+
+2. **PEXELS.COM** ⭐
+   - Site: https://pexels.com
+   - Busque: "mindfulness", "yoga", "spiritual", "calm"
+   - Clique no botão verde "Download"
+
+3. **PIXABAY.COM**
+   - Site: https://pixabay.com
+   - Busque: "meditation", "zen", "tranquility"
+   - Clique em "Download gratuito"
+
+---
+
+## 📸 PARTE 2: QUAIS IMAGENS VOCÊ PRECISA
+
+### TOTAL: 11 IMAGENS
+
+#### A) IMAGENS OBRIGATÓRIAS (6):
+
+**1. hero-background.jpg**
+- O QUE É: Imagem de fundo da página inicial
+- SUGESTÃO: Céu azul, natureza calma, luz suave, montanhas, mar
+- TAMANHO: 1920x1080 pixels (se possível)
+- BUSCAR: "peaceful sky", "calm nature", "blue sky clouds"
+
+**2. diego-foto.jpg**
+- O QUE É: SUA FOTO PROFISSIONAL
+- IMPORTANTE: Use uma foto sua de verdade! Cria conexão com o cliente
+- SUGESTÃO: Fundo neutro, você olhando para câmera, roupa profissional
+- TAMANHO: 800x800 pixels (formato quadrado)
+
+**3. sobre-fundo.jpg**
+- O QUE É: Imagem de fundo para seção "Sobre"
+- SUGESTÃO: Textura suave, padrão geométrico sutil, aquarela
+- BUSCAR: "soft texture", "watercolor background"
+
+**4. icon-padroes.jpg**
+- O QUE É: Substitui o emoji 🔍 (Leitura de Padrões)
+- SUGESTÃO: Padrões geométricos, mandala, cérebro estilizado
+- TAMANHO: 300x300 pixels
+- BUSCAR: "sacred geometry", "pattern design", "mandala"
+
+**5. icon-terapia.jpg**
+- O QUE É: Substitui o emoji 🧘 (Terapia Holística)
+- SUGESTÃO: Pessoa meditando, posição de lótus, zen
+- TAMANHO: 300x300 pixels
+- BUSCAR: "meditation silhouette", "yoga pose", "zen"
+
+**6. icon-equilibrio.jpg**
+- O QUE É: Substitui o emoji 🌱 (Análise Comportamental)
+- SUGESTÃO: Planta crescendo, equilíbrio, balanço
+- TAMANHO: 300x300 pixels
+- BUSCAR: "balance concept", "growth", "plant growing"
+
+#### B) IMAGENS OPCIONAIS (5):
+
+**7. icon-harmonizacao.jpg**
+- Substitui ✨ - Buscar: "energy healing", "light rays"
+
+**8. icon-mentoria.jpg**
+- Substitui 🔮 - Buscar: "consciousness", "third eye"
+
+**9. icon-online.jpg**
+- Substitui 💻 - Buscar: "video call wellness", "online therapy"
+
+**10. depoimento-fundo.jpg**
+- Fundo para seção de depoimentos
+- Buscar: "soft gradient", "pastel background"
+
+**11. contato-fundo.jpg**
+- Fundo para seção de contato
+- Buscar: "peaceful scene", "calm water"
+
+---
+
+## 🔧 PARTE 3: COMO RENOMEAR AS IMAGENS
+
+### NO WINDOWS:
+
+1. Baixe a imagem
+2. Vá na pasta "Downloads"
+3. Clique com botão direito na imagem
+4. Clique em "Renomear"
+5. Digite o nome exato (exemplo: hero-background.jpg)
+6. Aperte ENTER
+
+### NO MAC:
+
+1. Baixe a imagem
+2. Vá na pasta "Downloads"
+3. Clique na imagem
+4. Aperte ENTER
+5. Digite o nome exato
+6. Aperte ENTER novamente
+
+**⚠️ IMPORTANTE:**
+- Use EXATAMENTE os nomes que eu dei
+- Tudo em MINÚSCULA
+- Use HÍFEN (-) não UNDERLINE (_)
+- Extensão .jpg ou .jpeg
+
+---
+
+## 📤 PARTE 4: COMO COLOCAR NO GITHUB (PASSO A PASSO)
+
+### MÉTODO 1: ENVIAR TODAS AS IMAGENS DE UMA VEZ
+
+#### PASSO 1: Preparar as imagens
+1. Crie uma pasta no seu computador chamada "images"
+2. Coloque TODAS as imagens renomeadas dentro desta pasta
+3. Deixe o logo.jpg que já tem lá também
+
+#### PASSO 2: Acessar o GitHub
+1. Abra o navegador
+2. Entre em: https://github.com
+3. Faça login
+4. Clique no repositório: **C.E.U.-Centro-de-Estudo-Universal**
+
+#### PASSO 3: Entrar na pasta images
+1. Na página do repositório, clique na pasta "images"
+2. Você verá o logo.jpg que já está lá
+
+#### PASSO 4: Enviar as novas imagens
+1. Clique em "Add file" (botão no canto superior direito)
+2. Clique em "Upload files"
+3. **ARRASTE TODAS** as imagens novas para a área pontilhada
+   OU clique em "choose your files" e selecione todas
+4. Aguarde o upload terminar (barra de progresso verde)
+5. Role até o final da página
+6. No campo "Commit changes", escreva: "Adicionando imagens profissionais"
+7. Clique em "Commit changes" (botão verde)
+
+#### PASSO 5: Aguardar
+Aguarde 2-3 minutos para o GitHub processar
+
+#### PASSO 6: Ver o resultado
+Acesse: https://afamiliauniversal-boop.github.io/C.E.U.-Centro-de-Estudo-Universal/
+
+---
+
+### MÉTODO 2: ENVIAR UMA IMAGEM POR VEZ
+
+Use se tiver problemas com o Método 1.
+
+Para cada imagem:
+
+1. Entre no repositório no GitHub
+2. Clique na pasta "images"
+3. Clique em "Add file" → "Upload files"
+4. Arraste UMA imagem
+5. Escreva no commit: "Adicionando [nome da imagem]"
+6. Clique em "Commit changes"
+7. Repita para próxima imagem
+
+---
+
+## ✅ PARTE 5: COMO VERIFICAR SE FUNCIONOU
+
+### CHECKLIST:
+
+1. **Abra seu site:**
+   https://afamiliauniversal-boop.github.io/C.E.U.-Centro-de-Estudo-Universal/
+
+2. **Verifique se aparece:**
+   - ✅ Imagem de fundo na página inicial (Hero)
+   - ✅ Sua foto na seção "Sobre"
+   - ✅ Ícones nos cards de serviços (no lugar dos emojis)
+   - ✅ Imagens de fundo nas seções
+
+3. **Se NÃO aparecer:**
+   - Aguarde mais 2 minutos (pode demorar)
+   - Aperte CTRL + F5 (atualizar forçado)
+   - Abra em janela anônima
+   - Verifique se os nomes das imagens estão EXATOS
+
+---
+
+## 🆘 SOLUÇÕES PARA PROBLEMAS COMUNS
+
+### PROBLEMA 1: "Imagem não aparece"
+**SOLUÇÃO:**
+- Verifique se o nome está EXATO (com hífen, minúscula)
+- Verifique se está na pasta "images"
+- Aguarde 5 minutos
+- Limpe cache (CTRL + SHIFT + DELETE)
+
+### PROBLEMA 2: "Imagem aparece cortada"
+**SOLUÇÃO:**
+- A imagem está muito pequena
+- Baixe outra maior
+- Tamanho ideal: 1920x1080 (hero) ou 800x800 (quadradas)
+
+### PROBLEMA 3: "Imagem muito pesada, site lento"
+**SOLUÇÃO:**
+- Use site para comprimir: https://tinypng.com
+- Arraste a imagem lá
+- Baixe a versão comprimida
+- Use essa no GitHub
+
+### PROBLEMA 4: "Não sei qual imagem escolher"
+**SOLUÇÃO:**
+- Busque "meditation blue" no Unsplash
+- Escolha a que passar mais PAZ
+- Evite imagens muito coloridas ou agitadas
+- Prefira tons azuis, verdes, brancos
+
+---
+
+## 💡 DICAS DE OURO:
+
+### Para escolher boas imagens:
+
+1. **Cores:** Prefira azul, verde, bege, branco
+2. **Estilo:** Minimalista, limpo, calmo
+3. **Qualidade:** Alta resolução
+4. **Foco:** Imagens nítidas
+5. **Luz:** Natural, suave
+6. **Evite:** Cores vibrantes demais, poluição visual
+
+### Para fotos profissionais suas:
+
+1. Use fundo NEUTRO (branco, cinza, azul claro)
+2. Olhe para a câmera
+3. Sorria naturalmente
+4. Use roupa profissional (mas não muito formal)
+5. Luz natural é melhor
+6. Pode usar celular (se tiver boa câmera)
+
+---
+
+## 🎯 EXEMPLO DE BUSCA NO UNSPLASH:
+
+**PASSO A PASSO:**
+
+1. Entre em: https://unsplash.com
+2. Na barra de busca, digite: **"meditation blue calm"**
+3. Aperte ENTER
+4. Escolha uma imagem que te agrade
+5. Clique na imagem
+6. Clique no botão "Download" (canto superior direito)
+7. Escolha tamanho: **Medium** ou **Large**
+8. A imagem baixa automaticamente
+9. Vá na pasta Downloads
+10. Renomeie para: **hero-background.jpg**
+11. Pronto!
+
+Repita para cada imagem que precisar.
+
+---
+
+## 📊 LISTA DE VERIFICAÇÃO FINAL:
+
+Antes de enviar para o GitHub, certifique-se:
+
+- [ ] Baixei as imagens
+- [ ] Renomeei com os nomes corretos
+- [ ] Coloquei todas na pasta "images"
+- [ ] Logo.jpg está junto
+- [ ] Nomes estão em minúscula
+- [ ] Usei hífen (-) não underline (_)
+- [ ] Extensão é .jpg ou .jpeg
+- [ ] Tenho pelo menos as 6 imagens obrigatórias
+
+Tudo OK? Pode enviar para o GitHub!
+
+---
+
+## 🎬 VÍDEO TUTORIAL (OPCIONAL):
+
+Se preferir ver em vídeo, busque no YouTube:
+"Como fazer upload de arquivos no GitHub"
+
+Mas seguindo este guia, você consegue sozinho! 💪
+
+---
+
+## ❓ DÚVIDAS FREQUENTES:
+
+**P: Posso usar fotos do Google Imagens?**
+R: NÃO! Use apenas dos sites que indiquei (Unsplash, Pexels, Pixabay)
+
+**P: Posso mudar as imagens depois?**
+R: SIM! É só repetir o processo com novas imagens
+
+**P: E se eu não tiver foto profissional?**
+R: Peça pra alguém tirar com celular, fundo neutro, luz natural
+
+**P: Quantas fotos são obrigatórias?**
+R: Mínimo 6 (listadas como "obrigatórias")
+
+**P: Quanto tempo demora para aparecer?**
+R: 2 a 5 minutos após enviar no GitHub
+
+---
+
+Pronto! Agora você tem tudo para adicionar imagens profissionais no seu site! 🎉
+
+Qualquer dúvida, me pergunte!

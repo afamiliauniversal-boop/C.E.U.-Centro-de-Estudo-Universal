@@ -167,7 +167,8 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    background: linear-gradient(135deg, #A8DADC 0%, #7BA7BC 50%, #457B9D 100%);
+    background: linear-gradient(135deg, rgba(168, 218, 220, 0.9) 0%, rgba(123, 167, 188, 0.9) 50%, rgba(69, 123, 157, 0.9) 100%), 
+                url('../images/hero-background.svg') center/cover no-repeat;
     padding: 120px 20px 60px;
     text-align: center;
 }
@@ -296,7 +297,9 @@ section {
    SEÇÃO SOBRE
    =================================== */
 .sobre {
-    background: var(--cor-branco);
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), 
+                url('../images/sobre-fundo.svg') center/cover no-repeat;
+    background-color: var(--cor-branco);
 }
 
 .sobre-content {
@@ -311,6 +314,12 @@ section {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.foto-real {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .foto-placeholder {
@@ -412,8 +421,19 @@ section {
 }
 
 .servico-icon {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.servico-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .servico-card h3 {
@@ -499,7 +519,8 @@ section {
    SEÇÃO DEPOIMENTOS
    =================================== */
 .depoimentos {
-    background: linear-gradient(135deg, #E8F4F8 0%, #D5E8F0 100%);
+    background: linear-gradient(135deg, rgba(232, 244, 248, 0.95) 0%, rgba(213, 232, 240, 0.95) 100%),
+                url('../images/depoimento-fundo.svg') center/cover no-repeat;
 }
 
 .depoimentos-grid {
@@ -667,7 +688,9 @@ section {
    SEÇÃO CONTATO
    =================================== */
 .contato {
-    background: var(--cor-fundo-alt);
+    background: linear-gradient(rgba(237, 242, 247, 0.95), rgba(237, 242, 247, 0.95)),
+                url('../images/contato-fundo.svg') center/cover no-repeat;
+    background-color: var(--cor-fundo-alt);
 }
 
 .contato-grid {
