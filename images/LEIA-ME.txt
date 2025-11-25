@@ -1,0 +1,45 @@
+=================================================
+PASTA DE IMAGENS - INSTRUÇÕES
+=================================================
+
+IMAGENS NECESSÁRIAS PARA O SITE:
+
+1. logo.jpg (JÁ ESTÁ AQUI)
+   - Seu logo "Faith"
+   
+2. hero-background.jpg (VOCÊ PRECISA ADICIONAR)
+   - Imagem de fundo para página inicial
+   - Sugestão: natureza, luz suave, céu, paz
+   - Tamanho ideal: 1920x1080 pixels
+
+3. diego-foto.jpg (VOCÊ PRECISA ADICIONAR)
+   - Sua foto profissional
+   - Importante: foto real cria conexão!
+   - Tamanho ideal: 800x800 pixels
+
+4. terapia-1.jpg (VOCÊ PRECISA ADICIONAR)
+   - Imagem de terapia/meditação
+   - Sugestão: pessoa meditando, natureza
+
+5. terapia-2.jpg (VOCÊ PRECISA ADICIONAR)
+   - Imagem de autoconhecimento
+   - Sugestão: mãos, luz, energia
+
+6. terapia-3.jpg (VOCÊ PRECISA ADICIONAR)
+   - Imagem de bem-estar
+   - Sugestão: pessoa tranquila, paz
+
+ONDE ENCONTRAR IMAGENS GRATUITAS:
+- Unsplash.com
+- Pexels.com
+- Pixabay.com
+
+Busque por: "meditation", "therapy", "peace", "wellness", "spiritual"
+
+COMO ADICIONAR NO GITHUB:
+1. Coloque as imagens nesta pasta "images"
+2. Renomeie com os nomes acima
+3. Envie tudo junto para o GitHub
+
+OBS: Por enquanto usei cores de fundo. Quando você adicionar
+as imagens, o site ficará ainda mais profissional!

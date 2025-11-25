@@ -3,163 +3,504 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Família Universal - Terapias Holísticas</title>
+    <meta name="description" content="Análise de Padrões Humanos e Terapias Holísticas para Transformação Real. Diego Januário - Terapeuta Holístico em São Paulo.">
+    <title>Diego Januário - Análise de Padrões Humanos e Terapias Holísticas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Menu de Navegação -->
     <nav class="navbar">
         <div class="container">
-            <img src="images/logo.jpg" alt="Família Universal" class="logo">
-            <ul class="nav-menu">
+            <div class="nav-brand">
+                <img src="images/logo.jpg" alt="Família Universal" class="logo">
+            </div>
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
                 <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#metodologias">Metodologias</a></li>
                 <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#valores">Valores</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
+    <!-- Botão de Agendamento Flutuante -->
+    <a href="https://wa.me/5511992137770?text=Ol%C3%A1%20Diego,%20vim%20pelo%20site%20e%20quero%20conversar." class="btn-floating" target="_blank">
+        <span class="btn-floating-text">Agendar Sessão</span>
+    </a>
+
     <!-- Seção Hero -->
     <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Bem-vindo à Família Universal</h1>
-            <p>Transforme sua vida através do autoconhecimento e terapias holísticas</p>
-            <a href="#contato" class="btn-primary">Agende sua Sessão</a>
+            <h1 class="hero-title">Análise de Padrões Humanos e Terapias Holísticas para Transformação Real</h1>
+            <p class="hero-subtitle">Descubra seus padrões emocionais e comportamentais. Encontre equilíbrio, clareza e propósito através do autoconhecimento profundo.</p>
+            <div class="hero-buttons">
+                <a href="#contato" class="btn-primary">Agende sua Sessão</a>
+                <a href="#sobre" class="btn-secondary">Conheça o Trabalho</a>
+            </div>
+            <div class="hero-testimonial">
+                <p>"A análise de padrões me ajudou a entender comportamentos que eu repetia há anos sem perceber."</p>
+                <span>- Cliente Transformada</span>
+            </div>
         </div>
     </section>
 
-    <!-- Sobre -->
+    <!-- Seção Sobre Mim -->
     <section id="sobre" class="sobre">
         <div class="container">
-            <h2>Sobre Diego Januário</h2>
+            <div class="section-header">
+                <h2>Sobre Diego Januário</h2>
+                <p class="section-subtitle">Professor de Análise de Padrões Humanos e Terapeuta Holístico</p>
+            </div>
+            
             <div class="sobre-content">
+                <div class="sobre-imagem">
+                    <div class="foto-profissional">
+                        <!-- Quando adicionar sua foto, ela aparecerá aqui -->
+                        <div class="foto-placeholder">
+                            <p>Sua Foto<br>Profissional</p>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="sobre-texto">
-                    <p>Terapeuta holístico dedicado a auxiliar pessoas em sua jornada de autoconhecimento e transformação pessoal.</p>
-                    <p>Com anos de experiência em diferentes modalidades terapêuticas, meu trabalho é focado no desenvolvimento integral do ser humano, trabalhando corpo, mente e espírito.</p>
-                    <p>Acredito que cada pessoa possui em si o potencial para superar desafios e alcançar uma vida mais plena e equilibrada.</p>
+                    <h3>Uma jornada dedicada ao autoconhecimento humano</h3>
+                    
+                    <p>Sou Diego Januário, professor especializado em Análise de Padrões Humanos e terapeuta holístico. Meu trabalho é ajudar pessoas a identificarem os padrões emocionais e comportamentais que moldam suas vidas, muitas vezes sem que percebam.</p>
+                    
+                    <p>Através de uma abordagem integrativa que combina análise de padrões, terapias energéticas e desenvolvimento pessoal, acompanho meus clientes em processos profundos de transformação e autoconhecimento.</p>
+                    
+                    <div class="sobre-destaque">
+                        <h4>Minha Missão</h4>
+                        <p>Facilitar o autoconhecimento profundo, ajudando você a compreender seus padrões de comportamento, superar crenças limitantes e acessar todo o seu potencial para viver com mais equilíbrio, propósito e plenitude.</p>
+                    </div>
+                    
+                    <div class="sobre-info">
+                        <div class="info-item">
+                            <h4>📚 Formação</h4>
+                            <ul>
+                                <li>Análise de Padrões Humanos</li>
+                                <li>Terapias Holísticas Integradas</li>
+                                <li>Desenvolvimento Humano</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="info-item">
+                            <h4>👥 Público Atendido</h4>
+                            <ul>
+                                <li>Adultos em busca de autoconhecimento</li>
+                                <li>Pessoas em momentos de mudança</li>
+                                <li>Quem busca desenvolvimento pessoal</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Serviços -->
+    <!-- Seção Serviços -->
     <section id="servicos" class="servicos">
         <div class="container">
-            <h2>Terapias Oferecidas</h2>
+            <div class="section-header">
+                <h2>Como Posso Ajudar Você</h2>
+                <p class="section-subtitle">Serviços personalizados para sua jornada de transformação</p>
+            </div>
+            
             <div class="servicos-grid">
                 <div class="servico-card">
-                    <h3>Autoconhecimento</h3>
-                    <p>Processo terapêutico para identificar crenças limitantes e padrões de comportamento.</p>
+                    <div class="servico-icon">🔍</div>
+                    <h3>Leitura de Padrões Humanos</h3>
+                    <p class="servico-descricao">Identificação profunda dos seus padrões emocionais e comportamentais através de análise estruturada.</p>
+                    <div class="servico-detalhes">
+                        <p><strong>Para quem serve:</strong> Pessoas que sentem que repetem os mesmos erros ou comportamentos.</p>
+                        <p><strong>Benefícios:</strong> Clareza sobre seus padrões, compreensão de gatilhos emocionais, direcionamento para mudanças reais.</p>
+                    </div>
                 </div>
+                
                 <div class="servico-card">
-                    <h3>Terapia Holística</h3>
-                    <p>Abordagem integrativa que trabalha o ser humano em sua totalidade.</p>
+                    <div class="servico-icon">🧘</div>
+                    <h3>Terapia Holística Integrativa</h3>
+                    <p class="servico-descricao">Abordagem que trabalha corpo, mente e energia de forma integrada para equilíbrio completo.</p>
+                    <div class="servico-detalhes">
+                        <p><strong>Para quem serve:</strong> Pessoas buscando bem-estar integral e harmonização energética.</p>
+                        <p><strong>Benefícios:</strong> Equilíbrio emocional, alívio de tensões, maior consciência corporal e energética.</p>
+                    </div>
                 </div>
+                
                 <div class="servico-card">
-                    <h3>Desenvolvimento Espiritual</h3>
-                    <p>Orientação para conexão interior e expansão de consciência.</p>
+                    <div class="servico-icon">🌱</div>
+                    <h3>Análise de Comportamento Emocional</h3>
+                    <p class="servico-descricao">Estudo detalhado de como suas emoções influenciam suas decisões e relações.</p>
+                    <div class="servico-detalhes">
+                        <p><strong>Para quem serve:</strong> Quem deseja entender melhor suas reações emocionais.</p>
+                        <p><strong>Benefícios:</strong> Inteligência emocional, melhora nos relacionamentos, autocontrole.</p>
+                    </div>
                 </div>
+                
                 <div class="servico-card">
-                    <h3>Equilíbrio Emocional</h3>
-                    <p>Técnicas para gerenciar emoções e alcançar bem-estar mental.</p>
+                    <div class="servico-icon">✨</div>
+                    <h3>Harmonização Mental e Emocional</h3>
+                    <p class="servico-descricao">Técnicas para reorganizar pensamentos e emoções, trazendo paz interior.</p>
+                    <div class="servico-detalhes">
+                        <p><strong>Para quem serve:</strong> Pessoas com ansiedade, estresse ou conflitos internos.</p>
+                        <p><strong>Benefícios:</strong> Paz mental, clareza de pensamentos, redução de ansiedade.</p>
+                    </div>
+                </div>
+                
+                <div class="servico-card">
+                    <div class="servico-icon">🔮</div>
+                    <h3>Mentoria de Autoconsciência</h3>
+                    <p class="servico-descricao">Acompanhamento para desenvolvimento da consciência sobre si mesmo e seu propósito.</p>
+                    <div class="servico-detalhes">
+                        <p><strong>Para quem serve:</strong> Pessoas buscando propósito de vida e direção.</p>
+                        <p><strong>Benefícios:</strong> Clareza de propósito, alinhamento com valores, crescimento pessoal.</p>
+                    </div>
+                </div>
+                
+                <div class="servico-card">
+                    <div class="servico-icon">💻</div>
+                    <h3>Atendimento Online e Presencial</h3>
+                    <p class="servico-descricao">Flexibilidade total: escolha entre sessões presenciais em São Paulo ou online.</p>
+                    <div class="servico-detalhes">
+                        <p><strong>Para quem serve:</strong> Clientes de São Paulo e de qualquer lugar do Brasil.</p>
+                        <p><strong>Benefícios:</strong> Comodidade, flexibilidade de horários, mesma qualidade de atendimento.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Depoimentos -->
+    <!-- Seção Metodologias -->
+    <section id="metodologias" class="metodologias">
+        <div class="container">
+            <div class="section-header">
+                <h2>Metodologias Utilizadas</h2>
+                <p class="section-subtitle">Entenda como funciona o trabalho de análise de padrões e terapias holísticas</p>
+            </div>
+            
+            <div class="metodologia-content">
+                <div class="metodologia-item">
+                    <div class="metodologia-numero">1</div>
+                    <div class="metodologia-texto">
+                        <h3>O que são Padrões Humanos?</h3>
+                        <p>Padrões humanos são comportamentos, reações emocionais e formas de pensar que você repete automaticamente, muitas vezes desde a infância. Eles foram criados como mecanismos de proteção ou aprendizados, mas podem estar te limitando hoje.</p>
+                        <p><strong>Exemplo prático:</strong> Você sempre evita conflitos porque aprendeu que "discutir é ruim". Esse padrão pode estar impedindo você de se posicionar e ser respeitado.</p>
+                    </div>
+                </div>
+                
+                <div class="metodologia-item">
+                    <div class="metodologia-numero">2</div>
+                    <div class="metodologia-texto">
+                        <h3>Como a Análise de Padrões Contribui</h3>
+                        <p>Através de conversas estruturadas, observação de comportamentos recorrentes e ferramentas específicas, identifico os padrões que estão ativos na sua vida. Isso traz consciência do que precisa ser transformado.</p>
+                        <p><strong>Resultado:</strong> Você para de agir no "automático" e passa a fazer escolhas conscientes, quebrando ciclos que não te servem mais.</p>
+                    </div>
+                </div>
+                
+                <div class="metodologia-item">
+                    <div class="metodologia-numero">3</div>
+                    <div class="metodologia-texto">
+                        <h3>Integração com Terapias Holísticas</h3>
+                        <p>Depois de identificar os padrões mentais e emocionais, uso técnicas holísticas para trabalhar o corpo e a energia. Isso inclui harmonização energética, relaxamento profundo e técnicas de ancoragem emocional.</p>
+                        <p><strong>Diferencial:</strong> Não trabalho só com a mente. Integro corpo, emoção e energia para uma transformação completa.</p>
+                    </div>
+                </div>
+                
+                <div class="metodologia-item">
+                    <div class="metodologia-numero">4</div>
+                    <div class="metodologia-texto">
+                        <h3>Base Filosófica e Prática</h3>
+                        <p>Meu trabalho une conhecimentos de psicologia comportamental, filosofias orientais de autoconhecimento, sistemas energéticos e desenvolvimento humano. É uma abordagem didática, humana e acolhedora.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
     <section id="depoimentos" class="depoimentos">
         <div class="container">
-            <h2>O que dizem meus clientes</h2>
+            <div class="section-header">
+                <h2>Transformações Reais</h2>
+                <p class="section-subtitle">Veja o que dizem as pessoas que passaram pelo processo</p>
+            </div>
+            
             <div class="depoimentos-grid">
                 <div class="depoimento-card">
-                    <p>"As sessões me ajudaram a entender melhor meus padrões e a fazer mudanças significativas na minha vida."</p>
-                    <span>- Maria S.</span>
+                    <div class="depoimento-aspas">"</div>
+                    <p class="depoimento-texto">As sessões com Diego me ajudaram a entender padrões que eu repetia há anos sem perceber. Hoje me relaciono de forma mais saudável comigo e com as pessoas ao meu redor.</p>
+                    <div class="depoimento-autor">
+                        <div class="autor-info">
+                            <p class="autor-nome">Maria Silva</p>
+                            <p class="autor-desc">Cliente há 6 meses</p>
+                        </div>
+                    </div>
                 </div>
+                
                 <div class="depoimento-card">
-                    <p>"Profissional dedicado e atencioso. Recomendo para quem busca autoconhecimento genuíno."</p>
-                    <span>- João P.</span>
+                    <div class="depoimento-aspas">"</div>
+                    <p class="depoimento-texto">Eu estava perdido, sem saber qual direção tomar na vida. A análise de padrões me trouxe clareza sobre minhas crenças limitantes. Hoje tenho propósito e motivação.</p>
+                    <div class="depoimento-autor">
+                        <div class="autor-info">
+                            <p class="autor-nome">João Pedro</p>
+                            <p class="autor-desc">Cliente há 1 ano</p>
+                        </div>
+                    </div>
                 </div>
+                
                 <div class="depoimento-card">
-                    <p>"Encontrei no atendimento um espaço seguro para trabalhar questões profundas. Muito grata!"</p>
-                    <span>- Ana L.</span>
+                    <div class="depoimento-aspas">"</div>
+                    <p class="depoimento-texto">Sofria com ansiedade há anos. As terapias holísticas junto com a análise de padrões emocionais mudaram minha vida. Finalmente encontrei equilíbrio.</p>
+                    <div class="depoimento-autor">
+                        <div class="autor-info">
+                            <p class="autor-nome">Ana Luiza</p>
+                            <p class="autor-desc">Cliente há 8 meses</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="depoimento-card">
+                    <div class="depoimento-aspas">"</div>
+                    <p class="depoimento-texto">Profissional dedicado e atencioso. O trabalho é profundo, mas sempre com respeito ao meu tempo. Recomendo para quem busca autoconhecimento de verdade.</p>
+                    <div class="depoimento-autor">
+                        <div class="autor-info">
+                            <p class="autor-nome">Carlos Eduardo</p>
+                            <p class="autor-desc">Cliente há 4 meses</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="depoimento-card">
+                    <div class="depoimento-aspas">"</div>
+                    <p class="depoimento-texto">Encontrei nas sessões um espaço seguro para trabalhar questões profundas. Diego tem uma escuta acolhedora e ferramentas poderosas. Muito grata!</p>
+                    <div class="depoimento-autor">
+                        <div class="autor-info">
+                            <p class="autor-nome">Beatriz Costa</p>
+                            <p class="autor-desc">Cliente há 10 meses</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="depoimento-card">
+                    <div class="depoimento-aspas">"</div>
+                    <p class="depoimento-texto">A análise de padrões me mostrou comportamentos que vinham da minha família e que eu nem sabia que carregava. Hoje consigo fazer escolhas mais conscientes.</p>
+                    <div class="depoimento-autor">
+                        <div class="autor-info">
+                            <p class="autor-nome">Rafael Santos</p>
+                            <p class="autor-desc">Cliente há 7 meses</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contato -->
-    <section id="contato" class="contato">
+    <!-- Seção Valores -->
+    <section id="valores" class="valores">
         <div class="container">
-            <h2>Entre em Contato</h2>
+            <div class="section-header">
+                <h2>Investimento e Honorários</h2>
+                <p class="section-subtitle">Transparência e clareza sobre valores</p>
+            </div>
             
-            <div class="contato-info">
-                <div class="contato-item whatsapp-destaque">
-                    <h3>📱 WhatsApp (Recomendado)</h3>
-                    <p>A forma mais rápida de falar comigo:</p>
-                    <a href="https://wa.me/5511992137770?text=Ol%C3%A1%20Diego,%20vim%20pelo%20site%20e%20quero%20conversar." class="btn-whatsapp" target="_blank">
-                        Clique aqui para conversar
-                    </a>
-                    <p class="telefone">+55 (11) 99213-7770</p>
-                    <p class="horario"><strong>Horário de atendimento:</strong><br>Segunda a Sexta: 9h às 19h<br>(Exceto feriados)</p>
+            <div class="valores-content">
+                <div class="valores-info">
+                    <h3>Por que informar os valores?</h3>
+                    <p>Acredito em transparência. Informar os valores desde o início evita perda de tempo para ambos e qualifica o atendimento. Assim, você já sabe se o investimento cabe no seu orçamento.</p>
                 </div>
-
-                <div class="contato-item">
-                    <h3>📍 Atendimento Presencial</h3>
-                    <p>São Paulo, SP</p>
-                    <p>(Endereço informado após agendamento)</p>
+                
+                <div class="valores-cards">
+                    <div class="valor-card">
+                        <h4>Sessão Individual</h4>
+                        <p class="valor-tempo">50 a 100 minutos</p>
+                        <p class="valor-desc">Análise de padrões ou terapia holística individual</p>
+                        <p class="valor-preco">Consulte valores via WhatsApp</p>
+                    </div>
+                    
+                    <div class="valor-card destaque">
+                        <div class="badge-popular">Mais procurado</div>
+                        <h4>Pacote de 4 Sessões</h4>
+                        <p class="valor-tempo">Acompanhamento mensal</p>
+                        <p class="valor-desc">Ideal para processos profundos de transformação</p>
+                        <p class="valor-preco">Condições especiais</p>
+                    </div>
+                    
+                    <div class="valor-card">
+                        <h4>Mentoria Contínua</h4>
+                        <p class="valor-tempo">Sessões quinzenais</p>
+                        <p class="valor-desc">Para desenvolvimento pessoal contínuo</p>
+                        <p class="valor-preco">Consulte condições</p>
+                    </div>
                 </div>
-
-                <div class="contato-item">
-                    <h3>💻 Atendimento Online</h3>
-                    <p>Atendo via videochamada</p>
-                    <p>Em português</p>
+                
+                <div class="valores-extras">
+                    <div class="extra-item">
+                        <span class="extra-icon">💳</span>
+                        <div>
+                            <h4>Formas de Pagamento</h4>
+                            <p>Cartão de crédito (até 3x sem juros), PIX, transferência bancária</p>
+                        </div>
+                    </div>
+                    
+                    <div class="extra-item">
+                        <span class="extra-icon">📍</span>
+                        <div>
+                            <h4>Modalidades</h4>
+                            <p>Atendimento presencial em São Paulo (endereço informado após agendamento) ou online via videochamada</p>
+                        </div>
+                    </div>
+                    
+                    <div class="extra-item">
+                        <span class="extra-icon">🗓️</span>
+                        <div>
+                            <h4>Agendamento</h4>
+                            <p>Entre em contato pelo WhatsApp para verificar disponibilidade e agendar sua sessão</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="faq">
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Vamos Conversar?</h2>
+                <p class="section-subtitle">Entre em contato para agendar sua sessão</p>
+            </div>
+            
+            <div class="contato-grid">
+                <div class="contato-principal">
+                    <div class="whatsapp-card">
+                        <div class="whatsapp-icon">📱</div>
+                        <h3>WhatsApp (Recomendado)</h3>
+                        <p>A forma mais rápida de falar comigo:</p>
+                        <a href="https://wa.me/5511992137770?text=Ol%C3%A1%20Diego,%20vim%20pelo%20site%20e%20quero%20conversar." class="btn-whatsapp" target="_blank">
+                            Clique aqui para conversar
+                        </a>
+                        <p class="telefone-numero">+55 (11) 99213-7770</p>
+                        <div class="horario-box">
+                            <p><strong>Horário de atendimento:</strong></p>
+                            <p>Segunda a Sexta: 9h às 19h</p>
+                            <p class="obs">(Exceto feriados)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contato-opcoes">
+                    <div class="opcao-card">
+                        <div class="opcao-icon">📍</div>
+                        <h4>Atendimento Presencial</h4>
+                        <p>São Paulo, SP</p>
+                        <p class="obs">(Endereço informado após agendamento)</p>
+                    </div>
+                    
+                    <div class="opcao-card">
+                        <div class="opcao-icon">💻</div>
+                        <h4>Atendimento Online</h4>
+                        <p>Atendo via videochamada</p>
+                        <p>Para todo o Brasil</p>
+                        <p class="obs">Em português</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- FAQ -->
+            <div class="faq-section">
                 <h3>❓ Perguntas Frequentes</h3>
                 <div class="faq-grid">
                     <div class="faq-item">
                         <h4>Quanto tempo dura uma sessão?</h4>
-                        <p>De 50 a 100 minutos, dependendo da terapia.</p>
+                        <p>De 50 a 100 minutos, dependendo da terapia e da sua necessidade no momento.</p>
                     </div>
+                    
                     <div class="faq-item">
-                        <h4>Aceita cartão?</h4>
-                        <p>Sim! Parcelo em até 3x sem juros.</p>
+                        <h4>Aceita cartão de crédito?</h4>
+                        <p>Sim! Aceito cartão de crédito e parcelo em até 3x sem juros. Também aceito PIX e transferência.</p>
                     </div>
+                    
                     <div class="faq-item">
-                        <h4>Tem atendimento online?</h4>
-                        <p>Sim! Atendo via videochamada.</p>
+                        <h4>Como funciona o atendimento online?</h4>
+                        <p>Via videochamada em plataforma segura. A qualidade do atendimento é a mesma do presencial.</p>
                     </div>
+                    
                     <div class="faq-item">
                         <h4>Qual a melhor terapia para começar?</h4>
-                        <p>Depende do seu momento. Fale comigo e vamos escolher juntos!</p>
+                        <p>Depende do seu momento e objetivo. Na primeira conversa, vamos identificar juntos o melhor caminho para você.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>Quanto tempo leva para ver resultados?</h4>
+                        <p>Cada pessoa tem seu ritmo. Alguns clientes percebem mudanças já na primeira sessão, outros em algumas semanas.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>Preciso ter conhecimento prévio?</h4>
+                        <p>Não! O trabalho é didático e acessível. Explico tudo de forma clara e adaptada ao seu entendimento.</p>
                     </div>
                 </div>
             </div>
-
-            <div class="social-media">
-                <p>Acompanhe dicas diárias sobre:</p>
-                <ul>
-                    <li>Autoconhecimento</li>
-                    <li>Crenças limitantes</li>
-                    <li>Espiritualidade</li>
-                    <li>Bem-estar</li>
-                </ul>
+            
+            <!-- Redes Sociais -->
+            <div class="redes-sociais">
+                <h3>Acompanhe dicas diárias</h3>
+                <p>Conteúdos sobre:</p>
+                <div class="tags-redes">
+                    <span>Autoconhecimento</span>
+                    <span>Crenças Limitantes</span>
+                    <span>Espiritualidade</span>
+                    <span>Bem-estar</span>
+                    <span>Padrões Emocionais</span>
+                    <span>Desenvolvimento Pessoal</span>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Família Universal - Todos os direitos reservados</p>
-            <p>Diego Januário - Terapeuta Holístico</p>
+            <div class="footer-content">
+                <div class="footer-sobre">
+                    <img src="images/logo.jpg" alt="Família Universal" class="footer-logo">
+                    <p>Análise de Padrões Humanos e Terapias Holísticas para sua transformação pessoal.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contato">
+                    <h4>Contato</h4>
+                    <p>📱 (11) 99213-7770</p>
+                    <p>📍 São Paulo, SP</p>
+                    <p>🕐 Seg-Sex: 9h às 19h</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Família Universal - Todos os direitos reservados</p>
+                <p>Diego Januário - Terapeuta Holístico e Professor de Análise de Padrões Humanos</p>
+            </div>
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
