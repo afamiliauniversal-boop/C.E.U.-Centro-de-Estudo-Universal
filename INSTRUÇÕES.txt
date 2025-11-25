@@ -1,0 +1,126 @@
+# INSTRUÇÕES PARA COLOCAR SEU SITE NO GITHUB
+
+## O QUE VOCÊ VAI FAZER:
+Substituir o site antigo pelo novo site profissional no GitHub Pages.
+
+---
+
+## PASSO 1: BAIXAR OS ARQUIVOS
+
+1. Baixe TODOS os arquivos que estão na pasta que eu criei:
+   - index.html
+   - style.css
+   - pasta "images" (com o logo dentro)
+
+2. Salve tudo em uma pasta no seu computador (exemplo: "site-novo")
+
+---
+
+## PASSO 2: ACESSAR SEU GITHUB
+
+1. Abra seu navegador
+2. Entre em: https://github.com
+3. Faça login com seu usuário e senha
+4. Clique no repositório: **C.E.U.-Centro-de-Estudo-Universal**
+
+---
+
+## PASSO 3: APAGAR ARQUIVOS ANTIGOS
+
+1. Dentro do repositório, você vai ver os arquivos antigos
+2. Clique em cada arquivo antigo
+3. Clique no ícone de lixeira (deletar)
+4. Role até o final da página
+5. Clique em "Commit changes" (confirmar mudanças)
+6. Faça isso para TODOS os arquivos antigos
+
+---
+
+## PASSO 4: ENVIAR ARQUIVOS NOVOS
+
+### 4.1 - Enviar index.html:
+1. Na página principal do repositório, clique em "Add file"
+2. Clique em "Upload files"
+3. Arraste o arquivo **index.html** 
+4. Role até o final
+5. Clique em "Commit changes"
+
+### 4.2 - Enviar style.css:
+1. Clique em "Add file" novamente
+2. Clique em "Upload files"
+3. Arraste o arquivo **style.css**
+4. Role até o final
+5. Clique em "Commit changes"
+
+### 4.3 - Enviar pasta images:
+1. Clique em "Add file" novamente
+2. Clique em "Upload files"
+3. Arraste a PASTA **images** inteira (com o logo dentro)
+4. Role até o final
+5. Clique em "Commit changes"
+
+---
+
+## PASSO 5: ATIVAR GITHUB PAGES (SE NECESSÁRIO)
+
+1. No seu repositório, clique em "Settings" (Configurações)
+2. No menu lateral esquerdo, clique em "Pages"
+3. Em "Source", selecione: **main** (ou master)
+4. Clique em "Save" (Salvar)
+5. Aguarde 2-3 minutos
+
+---
+
+## PASSO 6: VER SEU SITE NOVO
+
+Acesse: https://afamiliauniversal-boop.github.io/C.E.U.-Centro-de-Estudo-Universal/
+
+O site novo vai aparecer com:
+- Menu de navegação no topo
+- Página inicial com chamada bonita
+- Seção Sobre Você
+- Seção de Serviços
+- Depoimentos
+- Página de Contato completa com WhatsApp em destaque
+- Design profissional azul/turquesa
+
+---
+
+## AJUDA SE DER ERRO:
+
+**Se o site não atualizar depois de 5 minutos:**
+1. Aperte CTRL + F5 no navegador (atualizar forçado)
+2. Ou abra em janela anônima
+
+**Se aparecer erro 404:**
+1. Verifique se o arquivo se chama exatamente "index.html" (com letra minúscula)
+2. Verifique se está na branch "main" ou "master"
+
+**Se as imagens não aparecerem:**
+1. Verifique se a pasta "images" foi enviada corretamente
+2. Verifique se o logo está dentro da pasta "images"
+
+---
+
+## DÚVIDAS?
+
+Me mande mensagem que eu ajudo você no passo que travar!
+
+---
+
+## O QUE TEM NO SITE NOVO:
+
+✅ Design profissional
+✅ Cores suaves (azul/turquesa)
+✅ Logo no topo
+✅ Menu de navegação
+✅ Seção Hero chamativa
+✅ Sobre você
+✅ 4 serviços em cards
+✅ 3 depoimentos
+✅ WhatsApp em destaque
+✅ Perguntas frequentes
+✅ Responsivo (funciona no celular)
+✅ Footer com informações
+
+Bom trabalho! 🎉
