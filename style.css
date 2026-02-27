@@ -405,7 +405,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -475,7 +475,7 @@ section {
 }
 
 .metodologia-content {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
