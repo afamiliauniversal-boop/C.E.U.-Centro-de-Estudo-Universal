@@ -423,7 +423,7 @@ section {
 }
 
 .servico-icon {
-    width: 100px;
+    width: 100%;
     height: 250px;
     margin: 0 auto 1.5rem;
     border-radius: 50%;
@@ -986,9 +986,7 @@ section {
         grid-template-columns: 1fr;
     }
     
-    .servicos-grid {
-        grid-template-columns: 1fr;
-    }
+   
     
     .metodologia-item {
         flex-direction: column;
@@ -1024,3 +1022,23 @@ section {
     }
 }
 
+.terapias-holísticas-header {
+    text-align: center;
+    margin: 4rem auto 2rem;
+    max-width: 800px;
+}
+
+.terapias-holísticas-header h2 {
+    font-size: 3rem;
+    color: var(--cor-destaque);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.terapias-holísticas-header p {
+    font-size: 1.2rem;
+    color: var(--cor-texto-claro);
+    font-style: italic;
+    max-width: 600px;
+    margin: 0 auto;
+}
