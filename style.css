@@ -401,9 +401,11 @@ section {
 }
 
 .servicos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 2.5rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .servico-card {
@@ -1022,27 +1024,3 @@ section {
     }
 }
 
-.servicos-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.terapias-holísticas-header {
-    text-align: center;
-    margin: 3rem 0 2rem;
-}
-
-.terapias-holísticas-header h2 {
-    font-size: 2.5rem;
-    color: var(--cor-destaque);
-    margin-bottom: 1rem;
-}
-
-.terapias-holísticas-header p {
-    font-size: 1.1rem;
-    color: var(--cor-texto-claro);
-    font-style: italic;
-}
