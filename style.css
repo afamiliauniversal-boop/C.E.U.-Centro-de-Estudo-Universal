@@ -290,7 +290,7 @@ section {
 .section-subtitle {
     font-size: 1.2rem;
     color: var(--cor-texto-claro);
-    max-width: 700px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -364,7 +364,7 @@ section {
 
 .sobre-info {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -405,7 +405,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -659,7 +659,7 @@ section {
 .valores-extras {
     display: grid;
     gap: 2rem;
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
