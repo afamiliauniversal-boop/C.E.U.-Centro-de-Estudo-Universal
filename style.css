@@ -1061,3 +1061,51 @@ section {
     transform: translateY(-3px);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
+/* Terapia Conversacional - Destaque Principal */
+.servico-card.principal {
+    transform: scale(1.03);
+    border-top: 6px solid #1C4E7A;
+    box-shadow: 0 15px 50px rgba(28, 78, 122, 0.2);
+    position: relative;
+    background: #FFF8DC;
+}
+
+.servico-card.principal:hover {
+    transform: scale(1.05);
+}
+
+.selo-principal {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #1C4E7A, #5B8DB8);
+    color: white;
+    padding: 0.6rem 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    white-space: nowrap;
+    box-shadow: 0 4px 15px rgba(28, 78, 122, 0.3);
+}
+
+/* Terapias Holísticas - Grid 3 em 3 */
+.servicos-grid.holísticas {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servicos-grid.holísticas .servico-card {
+    background: #FFFDF0;
+    padding: 1.5rem;
+}
+
+/* Responsivo - 1 coluna no celular */
+@media (max-width: 968px) {
+    .servicos-grid.holísticas {
+        grid-template-columns: 1fr !important;
+    }
+}
