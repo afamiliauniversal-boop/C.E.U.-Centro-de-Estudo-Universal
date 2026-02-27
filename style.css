@@ -1042,3 +1042,21 @@ section {
     max-width: 600px;
     margin: 0 auto;
 }
+.rede-link {
+    background: white;
+    color: var(--cor-destaque);
+    padding: 0.7rem 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.rede-link:hover {
+    background: var(--cor-destaque);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
