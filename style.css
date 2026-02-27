@@ -1150,8 +1150,13 @@ section {
 }
 /* === CARDS DE VALOR CLICÁVEIS === */
 .valor-link {
-    text-decoration: none;
+    text-decoration: none !important;
     display: block;
+    color: inherit;
+}
+
+.valor-link * {
+    text-decoration: none !important;
 }
 
 .valor-link:hover .valor-card {
