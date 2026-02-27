@@ -169,7 +169,7 @@ body {
     justify-content: center;
     position: relative;
 background: linear-gradient(rgba(15, 40, 70, 0.75), rgba(15, 40, 70, 0.75)),
-            url('../images/capa-floresta.jpg') center/cover no-repeat;
+            url('./images/capa-floresta.jpg') center/cover no-repeat;
        padding: 120px 20px 60px;
     text-align: center;
 }
