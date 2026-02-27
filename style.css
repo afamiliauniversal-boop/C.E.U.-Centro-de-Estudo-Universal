@@ -311,6 +311,11 @@ section {
 }
 
 .foto-profissional {
+    position: sticky;
+    top: 100px;
+}
+
+.foto-profissional {
     position: relative;
     border-radius: 20px;
     overflow: hidden;
