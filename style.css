@@ -1136,3 +1136,15 @@ section {
     transform: translateY(-4px);
     box-shadow: 0 10px 35px rgba(255, 215, 0, 0.7);
 }
+.servico-icon a,
+.servico-card a {
+    cursor: pointer;
+}
+
+.servico-icon img {
+    transition: transform 0.3s ease;
+}
+
+.servico-icon img:hover {
+    transform: scale(1.05);
+}
