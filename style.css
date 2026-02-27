@@ -1118,3 +1118,21 @@ section {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     animation: pulso 2s infinite;
 }
+.btn-urgencia {
+    background: #FFD700 !important;
+    color: #1A2F45 !important;
+    font-size: 1.3rem;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-weight: 800;
+    box-shadow: 0 6px 25px rgba(255, 215, 0, 0.5);
+    animation: pulso 2s infinite;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+.btn-urgencia:hover {
+    background: #FFC200 !important;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 35px rgba(255, 215, 0, 0.7);
+}
