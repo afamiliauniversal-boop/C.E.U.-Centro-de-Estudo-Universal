@@ -9,13 +9,13 @@
 
 :root {
     /* Cores Suaves e Acolhedoras (Baseado no PDF) */
-    --cor-primaria: #7BA7BC;        /* Azul suave */
-    --cor-secundaria: #A8DADC;      /* Azul claro */
-    --cor-destaque: #457B9D;        /* Azul médio */
-    --cor-texto: #2D3748;           /* Cinza escuro */
-    --cor-texto-claro: #4A5568;     /* Cinza médio */
-    --cor-fundo: #F7FAFC;           /* Off-white */
-    --cor-fundo-alt: #EDF2F7;       /* Cinza muito claro */
+   --cor-primaria: #5B8DB8;        /* Azul médio vibrante */
+--cor-secundaria: #A8B8C8;      /* Prata azulada */
+--cor-destaque: #1C4E7A;        /* Azul profundo */
+--cor-texto: #1A2F45;           /* Quase preto azulado */
+--cor-texto-claro: #4A6080;     /* Cinza azulado */
+--cor-fundo: #F4F7FA;           /* Branco azulado */
+--cor-fundo-alt: #E2EAF2;       /* Prata clara */
     --cor-branco: #FFFFFF;
     --cor-whatsapp: #25D366;
     
