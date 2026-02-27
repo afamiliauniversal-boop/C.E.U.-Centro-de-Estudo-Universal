@@ -168,9 +168,9 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-   background: linear-gradient(135deg, rgba(44, 95, 138, 0.95) 0%, rgba(28, 78, 122, 0.95) 50%, rgba(15, 50, 90, 0.95) 100%), 
-                url('../images/hero-background.svg') center/cover no-repeat;
-    padding: 120px 20px 60px;
+background: linear-gradient(rgba(15, 40, 70, 0.75), rgba(15, 40, 70, 0.75)),
+            url('images/capa-floresta.jpg') center/cover no-repeat;
+       padding: 120px 20px 60px;
     text-align: center;
 }
 
