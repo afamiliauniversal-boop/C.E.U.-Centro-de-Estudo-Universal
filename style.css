@@ -372,6 +372,8 @@ section {
     grid-template-columns: 2fr 1fr;
     gap: 2rem;
     margin-top: 2rem;
+    grid-column: 1 / -1;
+    width: 100%;
 }
 
 .info-item h4 {
