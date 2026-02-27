@@ -1148,3 +1148,39 @@ section {
 .servico-icon img:hover {
     transform: scale(1.05);
 }
+/* === CARDS DE VALOR CLICÁVEIS === */
+.valor-link {
+    text-decoration: none;
+    display: block;
+}
+
+.valor-link:hover .valor-card {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 40px rgba(28, 78, 122, 0.2);
+    border-top: 4px solid #1C4E7A;
+    transition: all 0.3s ease;
+}
+
+.valor-link:hover h4 {
+    color: #1C4E7A;
+}
+
+.valor-link:hover .valor-preco {
+    color: #1C4E7A;
+}
+
+/* === SELO PREMIUM === */
+.selo-principal {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    color: #1A2F45;
+    padding: 0.6rem 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    white-space: nowrap;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+}
