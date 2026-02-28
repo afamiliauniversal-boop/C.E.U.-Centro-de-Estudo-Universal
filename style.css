@@ -168,7 +168,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-background: linear-gradient(rgba(15, 40, 70, 0.75), rgba(15, 40, 70, 0.75)),
+background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
             url('./images/capa-floresta.jpg') center/cover no-repeat;
        padding: 120px 20px 60px;
     text-align: center;
@@ -180,7 +180,7 @@ background: linear-gradient(rgba(15, 40, 70, 0.75), rgba(15, 40, 70, 0.75)),
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.1);
+    background: transparent;
 }
 
 .hero-content {
