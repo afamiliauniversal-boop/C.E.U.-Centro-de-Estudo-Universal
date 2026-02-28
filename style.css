@@ -68,7 +68,7 @@ body {
 }
 
 .logo {
-    height: 100px;
+    height: 80px;
     width: auto;
     border-radius: 8px;
     transition: transform 0.3s ease;
@@ -265,8 +265,9 @@ background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
 }
 
 .hero-testimonial span {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     opacity: 0.9;
+    font-weight: 600;
 }
 
 /* ===================================
