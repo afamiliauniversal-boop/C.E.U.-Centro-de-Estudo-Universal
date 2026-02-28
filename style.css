@@ -51,7 +51,7 @@ body {
    NAVEGAÇÃO
    =================================== */
 .navbar {
-    background: rgba(255, 255, 255, 0.98);
+    background: rgba(255, 255, 255, 1);
     padding: 1.2rem 0;
     position: fixed;
     width: 100%;
@@ -68,7 +68,7 @@ body {
 }
 
 .logo {
-    height: 60px;
+    height: 80px;
     width: auto;
     border-radius: 8px;
     transition: transform 0.3s ease;
@@ -261,7 +261,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
 .hero-testimonial p {
     font-style: italic;
     margin-bottom: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .hero-testimonial span {
