@@ -68,7 +68,7 @@ body {
 }
 
 .logo {
-    height: 80px;
+    height: 100px;
     width: auto;
     border-radius: 8px;
     transition: transform 0.3s ease;
@@ -201,10 +201,10 @@ background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
 }
 
 .hero-subtitle {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-bottom: 3rem;
     opacity: 0.95;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .hero-buttons {
