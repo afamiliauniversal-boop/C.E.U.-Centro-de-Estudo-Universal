@@ -256,7 +256,7 @@ details[open]>summary .details-sign{transform:rotate(45deg)}
 .nav-menu{gap:20px}.nav-menu .nav-volunteer{color:var(--green);background:#edf1e8;padding:9px 13px;border-radius:6px}
 .brand>span{font-size:1.6rem;letter-spacing:.03em}.brand small{font-size:.76rem;letter-spacing:0}
 .welcome{padding:48px 0 52px}.welcome-copy h1{font-size:clamp(2.5rem,4.5vw,4rem)}
-.welcome-note a{font-weight:650}.section{padding:68px 0}.entry-hub{padding:45px 0}.entry-hub .section-heading{margin-bottom:20px}.entry-hub .purpose-doors{margin:20px 0 0}.entry-hub .purpose-doors>a{padding:24px}
+.welcome-note a{font-weight:650}.portrait a span{display:inline;margin:0;color:inherit;font-size:inherit}.section{padding:68px 0}.entry-hub{padding:45px 0}.entry-hub .section-heading{margin-bottom:20px}.entry-hub .purpose-doors{margin:20px 0 0}.entry-hub .purpose-doors>a{padding:24px}
 .books .reading{margin-top:30px;background:#fff}.school{background:#fff}.school-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}.school-grid article{border-top:1px solid var(--line);padding-top:22px}.school-grid h3{font-family:var(--serif);font-size:1.5rem;font-weight:400;margin:12px 0}.school-grid p{color:var(--muted);margin:0 0 16px}.school-note{padding:22px 25px;background:var(--paper);border-radius:12px;margin-top:30px;color:var(--muted);font-size:.94rem}.school-note strong{color:var(--ink)}
 .meaning-intro{margin-top:24px;max-width:360px;color:var(--muted)}.meaning-copy{padding-top:0}.meaning-copy .quiet-link{display:inline-block;margin-top:22px}
 .session-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:24px}
